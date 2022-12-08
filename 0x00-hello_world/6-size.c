@@ -20,7 +20,3 @@ int main(void)
 	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
