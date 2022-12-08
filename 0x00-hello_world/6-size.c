@@ -1,16 +1,26 @@
 #include <stdio.h>
-int main (void)
-{        
-	char a;
-	int b;
-	long int c;
-	long long int d;
-        float e;
 
-printf("size of char: %lu byte(s)\n" , (unsigned long)sizeof(a));
-printf("size of int: %lu byte(s)\n" , (unsigned long)sizeof(b));
-printf("size of long int: %lu byte(s)\n" , (unsigned long)sizeof(c)); 
-printf("size of long long int: %lu byte(s)\n" , (unsigned long)sizeof(d)); 
-printf("size of float: %lu byte(s)\n" , (unsigned long)sizeof(e)); 
-return (0);
+/**
+ * main - entry point
+ *
+ * Return: always 0 (success)
+ */
+int main(void)
+{
+	char c;
+	int i;
+	long li;
+	long long lii;
+	float f;
+
+	printf("Size of a char: %ld byte(s)\n", sizeof(c));
+	printf("Size of an int: %ld byte(s)\n", sizeof(i));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(lii));
+	printf("Size of a float: %ld byte(s)\n", sizeof(f));
+	return (0);
 }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
