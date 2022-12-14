@@ -23,5 +23,3 @@ int print_last_digit(int n)
 
 	return (a);
 }
-Footer
-© 2022 GitHub, Inc.
